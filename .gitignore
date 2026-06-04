@@ -13,3 +13,24 @@ Thumbs.db
 # Temp
 tmp/
 temp/
+
+# Environment variables / Secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.pem
+*.key
+*.crt
+*.cert
+credentials.*
+secrets.*
+*.secret
+config/credentials.yml.enc
+service-account*.json
+*.private.*
+id_rsa*
+id_dsa*
+*.p12
+*.pfx
