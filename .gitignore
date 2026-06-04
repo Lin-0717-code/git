@@ -14,6 +14,59 @@ Thumbs.db
 tmp/
 temp/
 
+# Build output / compiled files
+node_modules/
+dist/
+build/
+out/
+target/
+vendor/
+*.class
+*.jar
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+.python-version
+
+# OS extra
+desktop.ini
+
+# Archives / large binaries
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.iso
+*.dmg
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test / doc artifacts
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+site/
+*.rdb
+
 # Environment variables / Secrets
 .env
 .env.local
